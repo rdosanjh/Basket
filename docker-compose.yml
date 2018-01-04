@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  basket:
+    image: basket
+    build:
+      context: .
+      dockerfile: Basket\Dockerfile
